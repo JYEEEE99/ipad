@@ -30,7 +30,6 @@
         rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Javascript -->
@@ -44,12 +43,21 @@
         <div class="inner">
 
             <ul class="menu">
+                <li class="menu-starter">
+                    <a>
+                        <div>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
                 <li class="apple-logo"><a href="javascript:void(0)">Apple</a></li>
                 <li><a href="javascript:void(0)">스토어</a></li>
                 <li><a href="javascript:void(0)">Mac</a></li>
                 <li><a href="javascript:void(0)">iPad</a></li>
                 <li><a href="javascript:void(0)">iPhone</a></li>
                 <li><a href="javascript:void(0)">Airpods</a></li>
+                <li><a href="javascript:void(0)">Apple 독점 제공</a></li>
                 <li><a href="javascript:void(0)">액세서리</a></li>
                 <li><a href="javascript:void(0)">고객지원</a></li>
                 <li class="search-starter"><a href="javascript:void(0)">검색</a></li>
@@ -79,6 +87,7 @@
                         <div class="search-icon"></div>
                         <div class="search-closer"></div>
                     </div>
+                    <div class="search-canceler">취소</div>
                     <div class="autocompletes">
                         <h3>빠른 링크</h3>
                         <ul>
@@ -92,15 +101,30 @@
                 </div>
             </div>
 
+            <div class="clone-menu">
+                <ul>
+                    <li><a href="javascript:void(0)">스토어</a></li>
+                    <li><a href="javascript:void(0)">Mac</a></li>
+                    <li><a href="javascript:void(0)">iPad</a></li>
+                    <li><a href="javascript:void(0)">iPhone</a></li>
+                    <li><a href="javascript:void(0)">Airpods</a></li>
+                    <li><a href="javascript:void(0)">Apple 독점 제공</a></li>
+                    <li><a href="javascript:void(0)">액세서리</a></li>
+                    <li><a href="javascript:void(0)">고객지원</a></li>
+                </ul>
+            </div>
 
         </div>
     </header>
 
     <!-- navigation -->
     <nav>
+        <div class="shadow"></div>
+        <div class="contents-bg"></div>
         <div class="inner">
 
             <h1>iPad</h1>
+            <div class="menu-toggler"></div>
             <ul class="menu">
                 <li class="active"><a href="javascript:void(0)">개요</a></li>
                 <li><a href="javascript:void(0)">iPad를 선택하는 이유</a></li>
@@ -143,14 +167,16 @@
     </section>
 
     <!-- power -->
-    <div class="section power">
+    <section class="power">
         <div class="inner">
 
-            <div class="multiple-apps bg-text">
-                <h2>거침없는 일 처리 성능</h2>
+            <div class="multiple-apps">
+                <h2 class="bg-text">거침없는 일 처리 성능.</h2>
                 <div class="figures">
-                    <img src="/images/power_multiple_apps.png" alt="Keynote 마크업과 메세지가 함께 표시된 Split View">
-                    <figcaption>동시에 여러 앱 사용 가능</figcaption>
+                    <figure>
+                        <img src="/images/power_multiple_apps.png" alt="Keynote 마크업과 메세지가 함께 표시된 Split View">
+                        <figcaption class="bg-text">동시에 여러 앱 사용 가능</figcaption>
+                    </figure>
                 </div>
             </div>
 
@@ -200,7 +226,7 @@
             </div>
 
         </div>
-    </div>
+    </section>
     <!-- display -->
     <section class="display">
         <div class="inner">
@@ -600,6 +626,7 @@
         </div>
     </section>
 
+    </main>
     <!-- footer -->
     <footer>
         <div class="inner">
@@ -702,7 +729,6 @@
 
     </footer>
 
-    </main>
 
 </body>
 
